@@ -1,0 +1,73 @@
+/* SignupForm.css */
+
+.SignupForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .SignupForm h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .SignupForm div {
+    margin-bottom: 15px;
+  }
+  
+  .SignupForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .SignupForm input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .SignupForm .error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .SignupForm ul {
+    padding-left: 0;
+  }
+  
+  .SignupForm li {
+    margin-bottom: 5px;
+  }
+  
+  .SignupForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color:  #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .SignupForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .SignupForm button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
