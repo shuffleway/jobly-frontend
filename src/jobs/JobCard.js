@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from "react";
 import UserContext from "../auth/UserContext";
 
 const JobCard = ({ id, title, salary, equity, companyName }) => {
-    const { currentUser, hasAppliedToJob, applyToJob } = useContext(UserContext);
+    const {hasAppliedToJob, applyToJob } = useContext(UserContext);
 
     const [applied, setApplied] = useState(false);
 
@@ -14,7 +14,6 @@ const JobCard = ({ id, title, salary, equity, companyName }) => {
     }, [id, hasAppliedToJob]);
 
     async function handleJobApplication() {
-        console.log(currentUser)
         if (!applied) {
             try {
                 await applyToJob(id);

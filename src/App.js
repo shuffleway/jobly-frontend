@@ -15,7 +15,7 @@ export const TOKEN_STORAGE_ID = "jobly-token"
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
   const [applicationIds, setApplicationIds] = useState(new Set([]))
-  const [token, setToken] = useLocalStorage( TOKEN_STORAGE_ID);
+  const [token, setToken] = useLocalStorage(TOKEN_STORAGE_ID);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
