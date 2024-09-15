@@ -16,12 +16,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start",  
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-fe": "react-scripts start",
-    "start-be": "node ../jobly-backend/server.js"
+    "start-fe": "react-scripts start", 
+    "start-be": "node ../jobly-backend/server.js"  
   },
   "eslintConfig": {
     "extends": [
@@ -41,9 +41,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001",
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^8.2.2"
   },
   "jest": {
     "transformIgnorePatterns": [
